@@ -11,7 +11,6 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = "6.0"
 
   s.source       = { :git => "https://github.com/donik/AppBundle.git", :tag => s.version }
-  s.public_header_files = "PublicHeaders/**/*.{h,m,swift}"
   s.source_files  = "Sources/**/*.{h,m,swift}"
   s.requires_arc = true
 
